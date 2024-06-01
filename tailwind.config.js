@@ -3,6 +3,9 @@ export default {
   content: ["./src/**/*.{js,jsx,tsx,ts}"],
   theme: {
     extend: {},
+    fontFamily:{
+      'inter': ['Inter']
+    }
   },
   plugins: [],
 }

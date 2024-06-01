@@ -1,24 +1,24 @@
 const Navbar = () => {
   return(
-    <nav className="flex bg-slate-300 p-3 font-inter font-semibold">
+    <nav className="flex p-3 bg-slate-300 font-inter font-semibold">
       <a className="transition ease-in-out delay-150 hover:-translate-2 hover:scale-125 duration-300" href='#'>
          <img className="h-14" src="SHITSCHOOL.png"/>
       </a>
-      <ul className="flex p-2">
-        <li className="rounded-md p-2 hover:bg-slate-800 hover:text-slate-200">
-          <a href='#'>About</a>
+      <ul className="flex p-2 mt-2 gap-2">
+        <li>
+          <a className="rounded-md p-2 hover:bg-slate-800 hover:text-slate-200" href='#'>About</a>
         </li>
-        <li className="rounded-md p-2 hover:bg-slate-800 hover:text-slate-200">
-          <a href='#'>Course</a>
+        <li>
+          <a className="rounded-md p-2 hover:bg-slate-800 hover:text-slate-200" href='#'>Course</a>
         </li>
-        <li className="rounded-md p-2 hover:bg-slate-800 hover:text-slate-200">
-          <a href='#'>Contacts</a>
+        <li>
+          <a className="rounded-md p-2 hover:bg-slate-800 hover:text-slate-200" href='#'>Contacts</a>
         </li>
-        <li className="rounded-md p-2 hover:bg-slate-800 hover:text-slate-200">
-          <a href='#'>Services System</a>
+        <li>
+          <a className="rounded-md p-2 hover:bg-slate-800 hover:text-slate-200" href='#'>Services System</a>
         </li>
-        <li className="rounded-md p-2 hover:bg-slate-800 hover:text-slate-200">
-          <a href='#'>ITA</a>
+        <li>
+          <a className="rounded-md p-2 hover:bg-slate-800 hover:text-slate-200" href='#'>ITA</a>
         </li>
       </ul>
     </nav>

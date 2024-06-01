@@ -6,7 +6,8 @@ export default {
 
     },
     fontFamily:{
-      'inter': ['Inter']
+      'inter': ['Inter'],
+      'indie': ['Indie Flower'],
     }
   },
   plugins: [],

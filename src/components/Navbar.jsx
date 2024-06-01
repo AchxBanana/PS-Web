@@ -1,7 +1,7 @@
 const Navbar = () => {
   return(
     <nav className="flex bg-slate-300 p-3 font-inter font-semibold">
-      <a className="transition ease-in-out delay-150 hover:-translate-y-2 hover:scale-125 duration-300" href='#'>
+      <a className="transition ease-in-out delay-150 hover:-translate-2 hover:scale-125 duration-300" href='#'>
          <img className="h-14" src="SHITSCHOOL.png"/>
       </a>
       <ul className="flex p-2">

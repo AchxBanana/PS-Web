@@ -16,6 +16,9 @@ export default {
       },
     },
   },
-  plugins: [],
+  variants: {
+    display: ['responsive', 'dropdown']
+  },
+  plugins: [require('tailwindcss-dropdown')],
 }
 

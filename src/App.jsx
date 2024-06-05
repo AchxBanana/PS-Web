@@ -1,6 +1,8 @@
 import React from 'react'
 import { Route } from 'react-router-dom'
 import Navbar from './components/Navbar.jsx'
+// import Navbar from './components/dropdowntest.jsx'
+
 import Header from './components/header.jsx'
 import Services from './components/services.jsx'
 
@@ -13,7 +15,7 @@ function App() {
 
   return (
     <>
-      <div className="bg-zinc-900">
+      <div className="bg-gradient-to-br from-purple-500 to-pink-500">
         <Navbar />
         <Header />
         <Services />

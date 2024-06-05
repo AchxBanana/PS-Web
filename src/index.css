@@ -41,6 +41,8 @@
   }
 }
 
+/* translateX(-2200px) rotate(360deg) */
+/* translateX(0px) rotate(0deg) */
 @keyframes move-left {
   0% {
     transform: translateX(-2200px) rotate(360deg) scale(0, 0);

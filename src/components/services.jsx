@@ -6,7 +6,7 @@ import { FaMoneyBillAlt } from "react-icons/fa";
 const Services = () => {
   return (
     <>
-      <div className="flex justify-center gap-5 mt-10">
+      <div className="flex justify-center gap-5">
         <a className="" href="#"><IoSchoolSharp color="white" className="h-12 w-12 p-3 bg-blue-500 rounded-full mb-4" /></a>
         <a href="#"><PiChalkboardTeacherBold color="white" className="h-12 w-12 p-3 bg-pink-500 rounded-full mb-4" /></a>
         <a href="#"><FaBookOpenReader color="white" className="h-12 w-12 p-3 bg-orange-500 rounded-full mb-4" /></a>

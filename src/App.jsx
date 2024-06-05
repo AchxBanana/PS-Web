@@ -5,6 +5,8 @@ import Navbar from './components/Navbar.jsx'
 
 import Header from './components/header.jsx'
 import Services from './components/services.jsx'
+import Footer from './components/footer.jsx'
+import Contant from './components/contant.jsx'
 
 const handleMouseMove = (event) => {
   console.log('Mouse position:', event.clientX, event.clientY);
@@ -15,10 +17,12 @@ function App() {
 
   return (
     <>
-      <div className="bg-gradient-to-br from-purple-500 to-pink-500">
+      <div className="bg-gradient-to-br from-zinc-900 to-gray-900">
         <Navbar />
         <Header />
         <Services />
+        <Contant />
+        {/* <Footer /> */}
       </div>
     </>
   )

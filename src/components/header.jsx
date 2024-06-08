@@ -7,18 +7,22 @@ const Header = () => {
       <div className="container mx-auto h-screen">
         <div className="flex justify-between">
           <div className=" mt-10">
-            <h1 className="text-6xl text-blue-600 font-kola animated-font">Welcome TO PS</h1>
+            <h1 className="text-2xl text-blue-600 font-kola animated-font md:text-6xl">Welcome TO PS</h1>
             <TypeAnimation
               sequence={[
-                'Definding the F U T U R E'
+                'Definding the Fucker'
               ]}
-              className="text-2xl text-pink-500 font-cus"
+              className="text-xl text-pink-500 font-cus md:text-2xl"
             />
+            <div className="mt-56 rounded-md shadow-lg shadow-green-500/50 text-white font-bold h-24 p-10 bg-green-500">
+              Hello world
+            </div>
           </div>
+
           <div>
             <img
               src="pong.png"
-              className="h-[830px]  animated-element"
+              className="h-1/2 animated-element md:h-[830px]"
               id="pong"
             />
           </div>

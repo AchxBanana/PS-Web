@@ -22,7 +22,6 @@ function App() {
         <Header />
         <Services />
         <Contant />
-        {/* <Footer /> */}
       </div>
     </>
   )

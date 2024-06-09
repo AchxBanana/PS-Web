@@ -4,25 +4,22 @@ import { TypeAnimation } from 'react-type-animation';
 const Header = () => {
   return (
     <>
-      <div className="container mx-auto h-screen">
-        <div className="flex justify-between">
-          <div className=" mt-10">
-            <h1 className="text-2xl text-blue-600 font-kola animated-font md:text-6xl">Welcome TO PS</h1>
+      <div className="container mx-auto h-fit m-10 relative">
+        <img src="slide-18.jpg" className="absolute w-4/5 shadow-md shadow-gray-500 rounded-sm"/>
+        <div className="flex justify-between relative">
+          <div className="mt-10 ml-10">
+            <h1 className="text-2xl text-blue-600 font-mitr animated-font md:text-6xl">โพธิสารพิทยากร</h1>
             <TypeAnimation
               sequence={[
-                'Definding the Fucker'
+                'Definding the Future'
               ]}
-              className="text-xl text-pink-500 font-cus md:text-2xl"
+              className="text-xl text-pink-500 font-cus md:text-2xl "
             />
-            <div className="mt-56 rounded-md shadow-lg shadow-green-500/50 text-white font-bold h-24 p-10 bg-green-500">
-              Hello world
-            </div>
           </div>
-
           <div>
             <img
               src="pong.png"
-              className="h-1/2 animated-element md:h-[830px]"
+              className="h-1/2 animated-element md:h-[760px] mr-10"
               id="pong"
             />
           </div>

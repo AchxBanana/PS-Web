@@ -31,7 +31,21 @@
   animation: show-text 1.2s linear;
 }
 
+.animate-fade {
+  animation: fade 1.2s linear;
+}
+
 @keyframes show-text {
+  0% {
+    transform: scale(0, 0);
+  }
+
+  100% {
+    transform: scale(100%, 100%);
+  }
+}
+
+@keyframes fade {
   0% {
     transform: scale(0, 0);
   }
@@ -55,4 +69,12 @@
 
 .dropdown:hover .dropdown-menu {
   display: block;
+}
+
+hr {
+  border: 1px solid #FDFFC2;
+}
+
+hr.news{
+  border: 1px solid pink;
 }

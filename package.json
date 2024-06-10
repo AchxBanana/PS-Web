@@ -2,7 +2,7 @@
   "homepage": "http://AchxBanana.github.io/PS-Web",
   "name": "ps-web",
   "private": true,
-  "version": "0.0.0",
+  "version": "0.1.0",
   "type": "module",
   "scripts": {
     "dev": "vite",

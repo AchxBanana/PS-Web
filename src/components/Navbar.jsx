@@ -37,7 +37,7 @@ export default function Navbar() {
               <a className="rounded-md p-2 font-ibm_thai  hover:text-slate-600 transition duration-300 font-medium" href='#'>เกี่ยวกับสถานศึกษา</a>
             </li>
             <li>
-              <a className="rounded-md p-2 font-ibm_thai font-bold hover:text-slate-600 transition duration-300" href='#contant'>หลักสูตร</a>
+              <a className="rounded-md p-2 font-ibm_thai font-bold hover:text-slate-600 transition duration-300" href='#course'>หลักสูตร</a>
             </li>
             <li>
               <a className="rounded-md p-2 hover:text-slate-600 transition duration-300" href='#contact'>Contacts</a>

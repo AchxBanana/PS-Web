@@ -10,7 +10,7 @@ const Contact = () => {
     return (
         <>
             <section id="contact" className="container mx-auto">
-                <h1 className="mb-3 font-inter font-semibold text-2xl">Contact us</h1>
+                <h1 className="mb-3 font-inter font-semibold text-2xl text-white">Contact us</h1>
                 <div className="flex  justify-between my-auto container mx-auto p-10 bg-gray-800 rounded-lg mb-10 h-72">
                     <div className="text-sm mt-2 w-96">
                         <h1 className="text-gray-100 text-lg underline font-inter font-semibold">Address</h1>

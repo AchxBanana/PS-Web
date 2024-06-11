@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Mitr:wght@200;300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Thai:wght@100;200;300;400;500;600;700&display=swap');
 
 @tailwind base;
 @tailwind components;
@@ -21,6 +22,10 @@
   font-family: kola;
   font-weight: 900;
   src: url(./assets/fonts/Kola-Regular.otf);
+}
+
+html {
+  scroll-behavior: smooth;
 }
 
 .animated-element {
@@ -75,6 +80,61 @@ hr {
   border: 1px solid #FDFFC2;
 }
 
-hr.news{
+hr.news {
   border: 1px solid pink;
+}
+
+#scrolling {
+  white-space: nowrap;
+  overflow-x: hidden;
+  animation: scroll 4s linear infinite;
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+
+  100% {
+    transform: translateX(350%);
+  }
+}
+
+.footerlink ul li {
+  padding: 0 0.5em 0.25em;
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+  transition: 0.3s;
+}
+
+.footerlink ul li:before {
+  content: "";
+  position: absolute;
+  inset: calc(100% - 3px) 0 0 0;
+  /* 3px = the thickness */
+  background: #ce4f20;
+  /* the color */
+  scale: 0 1;
+  transition: 0.3s, translate 0s 0.3s;
+}
+
+
+.footerlink ul:hover li:before {
+  scale: 1;
+}
+
+.footerlink ul li:hover:before {
+  translate: 0;
+  transition: 0.3s;
+}
+
+.footerlink ul:hover li:has(~ li:hover):before {
+  translate: 100% 0;
+  transition: 0.2s 0.2s, scale 0s 0.4s;
+}
+
+.footerlink ul:hover li:hover~li:before {
+  translate: -100% 0;
+  transition: 0.2s 0.2s, scale 0s 0.4s;
 }

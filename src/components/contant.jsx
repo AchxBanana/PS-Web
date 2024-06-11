@@ -15,10 +15,10 @@ const Contant = () => {
   return (
     <>
       <section id="contant">
-        <div className="container mx-auto mt-36 mb-10 relative">
+        <div className="container mx-auto mb-10 relative">
           <div>
             <p className="font-mitr text-2xl text-center text-white">
-              รับสมัคร
+              รับสมัครนักเรียน
             </p>
             <div className="flex flex-wrap gap-9 mt-5 justify-center">
               <div className="hover:scale-125 duration-300">
@@ -86,7 +86,7 @@ const Contant = () => {
               <div className="hover:scale-125 duration-300">
                 <a href="#">
                   <img
-                    src="https://www.ps.ac.th/psth/wp-content/uploads/2024/02/banner2567-002.png"
+                    src="https://www.ps.ac.th/psth/wp-content/uploads/2022/02/allplan1-01-2048x2048.jpg"
                     className="size-96 rounded-md shadow-gray-500"
                   />
                 </a>

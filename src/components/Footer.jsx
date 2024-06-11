@@ -2,22 +2,16 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <div className="py-5 text-center bg-gray-600">
-      <p className="text-sm mt-2">
-        &copy; {new Date().getFullYear()} Achi P.DEMO. All Right you can doit.
-      </p>
-      <ul>
-        <li>
-          EIE
-        </li>
-        <li>
-          EIE
-        </li>
-        <li>
-          EIE
-        </li>
-      </ul>
-    </div>
+    <>
+      <div className=" py-3 bg-gray-900">
+        <div className="container  my-auto mx-auto flex justify-center">
+          <p className=" text-xs text-white font-ibm_thai font-semibold">
+            &copy; {new Date().getFullYear()}<span className="text-blue-400 font-ibm_thai font-semibold"><a href="/"> โพธิสารพิทยากร</a></span>
+          </p>
+
+        </div>
+      </div>
+    </>
   );
 }
 

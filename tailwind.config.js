@@ -3,7 +3,7 @@ export default {
   content: ["./src/**/*.{js,jsx,tsx,ts}"],
   theme: {
     extend: {
-      fontFamily:{
+      fontFamily: {
         inter: ['Inter'],
         mitr: ['Mitr'],
         indie: ['Indie Flower'],
@@ -13,6 +13,7 @@ export default {
         chillax: ['Chillax'],
         cus: ["custom"],
         custhin: ["custom-thin"],
+        ibm_thai: ["IBM Plex Sans Thai", "sans"],
       },
     },
   },

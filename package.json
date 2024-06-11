@@ -1,5 +1,4 @@
 {
-  "homepage": "http://AchxBanana.github.io/PS-Web",
   "name": "ps-web",
   "private": true,
   "version": "0.1.0",
@@ -7,8 +6,6 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages-deploy",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview"
   },

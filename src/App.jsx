@@ -1,7 +1,7 @@
 import React from 'react'
 import { Route } from 'react-router-dom'
 import Navbar from './components/Navbar.jsx'
-
+// import components
 import Header from './components/header.jsx'
 import Services from './components/services.jsx'
 import Contant from './components/contant.jsx'

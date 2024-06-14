@@ -23,6 +23,7 @@
     "react-slideshow-image": "^4.3.1",
     "react-type-animation": "^3.2.0",
     "tailwindcss-dropdown": "^1.0.0",
+    "three": "^0.165.0",
     "tw-elements-react": "^1.0.0-alpha2",
     "typewriter-effect": "^2.21.0"
   },
@@ -39,6 +40,6 @@
     "gh-pages-deploy": "^0.1.1",
     "postcss": "^8.4.38",
     "tailwindcss": "^3.4.3",
-    "vite": "^5.2.0"
+    "vite": "^5.2.13"
   }
 }

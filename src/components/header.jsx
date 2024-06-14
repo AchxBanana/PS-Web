@@ -2,6 +2,7 @@ import React from 'react';
 import { TypeAnimation } from 'react-type-animation';
 
 const Header = () => {
+    
   return (
     <>
       <div className="container mx-auto h-fit m-10 relative">
